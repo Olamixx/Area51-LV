@@ -11,6 +11,8 @@ on:
 jobs:
   auto_commit:
     runs-on: ubuntu-latest
+    env:
+      NODE_VERSION: 14
     steps:
       - name: DEBUG 
         run: echo "::debug::Ref = ${{github.ref}}"
