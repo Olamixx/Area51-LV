@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # Set the RPC endpoints
-ETH_RPC_ENDPOINT="https://eth1.lava.build/lava-referer-341d273a-c85b-4fd2-bab7-cec5f582700f/"
-NEAR_RPC_ENDPOINT="https://rpc.testnet.near.org"
+ETH_RPC_ENDPOINT="https://eth1.lava.build/lava-referer-d539f780-dd64-4b49-8417-8a54211bdff5/"
+NEAR_RPC_ENDPOINT="https://near.lava.build/lava-referer-d539f780-dd64-4b49-8417-8a54211bdff5/"
 
 # Define the wallet addresses
-ETH_WALLETS=("0x123456789abcdef0123456789abcdef01234567" "0xfedcba9876543210fedcba9876543210fedcba98")
-NEAR_WALLETS=("example.testnet" "another_example.testnet")
+ETH_WALLETS=("0x767235CCEEf614F2B5653B41A9D120Af3a8bFF1e" "0x31afD2Df9C514da21d8Ab2D7322A17B20f10EA03"  "0x3D757454ea8eBbF056b618A048C153edDB95b038"  "0x484531E1D6882A3307464E7091D1AB008A9ec616")
+NEAR_WALLETS=("ifeolayeni.near")
 
 # Function to get Ethereum balance
 function get_eth_balance() {
