@@ -5,8 +5,8 @@ ETH_RPC_ENDPOINT="https://eth1.lava.build/lava-referer-d539f780-dd64-4b49-8417-8
 NEAR_RPC_ENDPOINT="https://near.lava.build/lava-referer-d539f780-dd64-4b49-8417-8a54211bdff5/"
 
 # Define the wallet addresses
-ETH_WALLETS=("0x767235CCEEf614F2B5653B41A9D120Af3a8bFF1e" "0x31afD2Df9C514da21d8Ab2D7322A17B20f10EA03"  "0x3D757454ea8eBbF056b618A048C153edDB95b038"  "0x484531E1D6882A3307464E7091D1AB008A9ec616")
-NEAR_WALLETS=("ifeolayeni.near")
+ETH_WALLETS=("" "0x31afD2Df9C514da21d8Ab2D7322A17B20f10EA03"  ""  "")
+NEAR_WALLETS=("" )
 
 # Function to get Ethereum balance
 function get_eth_balance() {
