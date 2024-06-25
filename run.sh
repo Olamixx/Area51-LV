@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Set the RPC endpoints
-ETH_RPC_ENDPOINT="https://eth1.lava.build/lava-referer-d539f780-dd64-4b49-8417-8a54211bdff5/"
-NEAR_RPC_ENDPOINT="https://near.lava.build/lava-referer-d539f780-dd64-4b49-8417-8a54211bdff5/"
+ETH_RPC_ENDPOINT="https://eth1.lava.build/lava-referer-"
+NEAR_RPC_ENDPOINT="https://near.lava.build/lava-referer-"
 
 # Define the wallet addresses
 ETH_WALLETS=("" "0x31afD2Df9C514da21d8Ab2D7322A17B20f10EA03"  ""  "")
